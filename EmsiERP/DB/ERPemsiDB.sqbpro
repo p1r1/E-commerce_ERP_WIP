@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="D:/Projects/EmsiERP/EmsiERP/DB/ERPemsiDB.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="0"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="3740"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,8:mainCategory"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="SQL 1">CREATE TABLE &quot;Meta_Tax&quot; (
+	&quot;Id&quot;	INTEGER NOT NULL UNIQUE,
+	&quot;CompanyId&quot;	INTEGER,
+	&quot;TaxType&quot;	INTEGER,
+	&quot;TaxCode&quot;	INTEGER,
+	&quot;Explanation&quot;	TEXT,
+	&quot;SpecialCode&quot;	TEXT,
+	&quot;Rate&quot;	TEXT,
+	&quot;Amount&quot;	TEXT,
+	&quot;UniversalCode&quot;	TEXT,
+	&quot;InUse&quot;	INTEGER,
+	&quot;InsertedAt&quot;	TEXT,
+	&quot;InsertedBy&quot;	INTEGER,
+	&quot;UpdatedAt&quot;	TEXT,
+	&quot;UpdatedBy&quot;	INTEGER,
+	&quot;IsDeleted&quot;	INTEGER,
+	&quot;DeletedAt&quot;	TEXT,
+	&quot;DeletedBy&quot;	INTEGER,
+	PRIMARY KEY(&quot;Id&quot; AUTOINCREMENT)
+);</sql><current_tab id="0"/></tab_sql></sqlb_project>
